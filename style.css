@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|VT323|Oswald');
+
+body {
+	background: url("backgroundbanner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.h3 {
+	font-size: 10px;
+}
+
+.label{
+	color : #FFE600;
+	font-family : 'Oswald',Arial,sans;
+	font-size:0.7em;
+	margin-top:5px;
+	text-align:center;
+	text-shadow: 2px 2px #000;
+  }
+
+.padwrap{
+	width: 470px;
+	height:470px;
+	border-radius:100%;
+	position: relative;
+	text-align: center;
+	margin:auto;
+	background-color:#000;
+	box-shadow: 0px 0px 12px #222;
+  }
+
+.pad{
+    font-family: arial;
+    margin: 10px;
+    width: 210px;
+	height: 210px;
+ 
+}
+
+.red {
+    background: #FF0000;
+    background-image:url(alfonse.png);
+    background-position:center;
+    background-repeat:no-repeat;
+    display: inline-block;
+    position: relative;
+	text-align: center;
+	border-bottom-left-radius : 100%;
+	text-align: left;
+
+
+}
+
+.blue {
+    background: #3B55C7;
+    background-image:url(sharena.png);
+    background-position:center;
+    background-repeat:no-repeat;
+    display: inline-block;
+    position: relative;
+	text-align: center;
+	border-top-left-radius : 100%;
+	text-align: left;
+
+	
+}
+
+.green {
+    background: #1EA34A;
+    background-image:url(anna.png);
+    background-position:center;
+    background-repeat:no-repeat;
+    display: inline-block;
+    position: relative;
+	text-align: center;
+	border-top-right-radius : 100%;
+	text-align:right;
+
+	
+}
+
+.grey {
+    background: grey;
+    background-image:url(virion.png);
+    background-position:center;
+    background-repeat:no-repeat;
+    display: inline-block;
+    position: relative;
+	text-align: center;
+	border-bottom-right-radius : 100%;
+	text-align: right;
+}
+
+.active-anna {
+    background: #A8E6A8;
+    background-image:url(annaattack.png);
+    background-position:center;
+    background-repeat:no-repeat;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+.active-sharena {
+    background: #74A6D4;
+    background-image:url(sharenaattack.png);
+    background-position:center;
+    background-repeat:no-repeat;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    }
+
+.active-alfonse {
+        background: #DB7C6F;
+        background-image:url(alfonseattack.png);
+        background-position:center;
+        background-repeat:no-repeat;
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        }
+
+.active-virion {
+    background: #D1D1D1;
+    background-image:url(virionattack.png);
+    background-position:center;
+    background-repeat:no-repeat;
+    display: inline-block;
+    position: relative;
+    text-align: center;            
+            }
+
+
+.control{
+  width:220px;
+  height:220px;
+  position : absolute;
+  border-radius:100%;
+  top:50%;
+  left:50%;
+  margin: -122px 0 0  -122px;
+  background-color:#222;
+  border: 10px solid #000;
+  text-align: center;
+
+}
+
+#logo {
+	width: 150px;
+	height: auto;
+	margin-top: 35px;
+	margin-left: 25px;
+}
+
+.inline{
+  display: inline-block;
+  text-align: center;
+  margin: 5px;
+}
+
+.count{
+  font-family: 'VT323', monospace;
+  color : #DC0D29;
+  padding : 0px;
+  font-size : 2em;
+  width : 50px;
+  background-color: #32050C;
+  position:relative;
+  border : 4px solid #000;
+  border-radius : 10px;
+  margin:auto;
+}
+
+.led{
+	width:6px;
+	height:6px;
+	background-color: #32050C;
+	border-radius : 100%;
+	position: absolute;
+	left:0;
+	right: 0;
+	margin : auto;
+	border: 2px solid #000;
+	top: -18px;
+  }
+  
+
+  .led-off{
+	color:#430710;
+  }
+
+  .led-on{
+	color:#DC0D29;
+  }
+  
+#start {
+	border: 2px solid black;
+	background: red;
+	border-radius: 100%;
+	width: 15px;
+	height: 15px;
+	cursor: pointer;
+	margin:auto;
+}
+
+#strict{
+	border: 2px solid black;
+	background: yellow;
+	border-radius: 100%;
+	width: 15px;
+	height: 15px;
+	cursor: pointer;
+	margin:auto;
+}
+
+.strictlight{
+	border: 2px solid black;
+	background: #53352B;
+	border-radius: 100%;
+	width: 5px;
+	height: 5px;
+	margin:auto;
+}
+
+.strictactive{
+	background: #FF0000;
+
+}
+
+.binline{
+	display: inline-block;
+	text-align: center;
+  }
+
+.switchbase {
+background: #333;
+height: 20px;
+width: 40px;
+}
+
+
+.switchbutton {
+	background: #4568DB;
+	height: 16px;
+	width: 16px;
+	margin: 2px;
+
+}
+
+.switchactive {
+	position: relative;
+	left: 20px;
+}
+
+.instructionbox{
+	background: #FFE600;
+	color : #000;
+	font-family : 'Oswald',Arial,sans;
+	font-size:0.7em;
+	margin-top:5px;
+	text-align:center;
+	border: 3px solid black;
+	width: 270px;
+	margin: auto;
+  }
